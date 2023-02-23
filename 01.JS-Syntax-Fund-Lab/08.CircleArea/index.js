@@ -1,10 +1,10 @@
-function solve(input){
-    let result;
-    if (typeof(input)=='number') {
-        result=Math.pow(input, 2)*Math.PI;
-        console.log(input.toFixed(2));
+function circleArea(radius){
+    let radiusType = typeof radius;
+    if (radiusType ==='number'){
+        let circleArea = Math.PI*radius**2;
+        console.log(circleArea.toFixed(2));
+        return;
     }
-    else{
-        console.log(`We can not calculate the circle,area beacuse we recieve a ${typeof(input)}`);
-    }
+    console.log(`We can not calculate the circle area, because we receive a ${radiusType}.`);
+
 }
