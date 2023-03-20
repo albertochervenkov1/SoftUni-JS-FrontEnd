@@ -10,10 +10,8 @@ function solve(str){
             output.set(word, 1)
         }
     }
-    for (item of output) {
-        if (item[1] % 2 !== 0) {
-            process.stdout.write(`${item[0]} `)
-        }
+    for (const key of output) {
+        console.log(`${key} -> ${output[key]}`);
     }
 }
 
