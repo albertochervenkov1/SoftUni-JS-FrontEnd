@@ -43,6 +43,7 @@ function attachEvents() {
 
   function loadEditFormHandler(event){
       const liParent = event.currentTarget.parentNode
+      console.log(liParent);
       const [span, _removeBtn, editBtn] = Array.from(liParent.children)
       const editInput = document.createElement('input')
       editInput.value = span.textContent
