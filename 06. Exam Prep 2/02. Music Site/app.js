@@ -67,9 +67,6 @@ function solve() {
         saveBtn.remove();
         likeBtn.remove();
       }
-  
-  
-
     function createElement(type, parentNode, content, classes, id, attributes, useInnerHtml) {
         const htmlElement = document.createElement(type);
       
@@ -106,12 +103,5 @@ function solve() {
       
         return htmlElement;
     }
-
-
-
-
-
-
-    
 
 }
