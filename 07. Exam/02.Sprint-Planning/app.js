@@ -250,4 +250,4 @@ function solve() {
       labelInput.value = "";
       assigneeInput.value = "";
     }
-  }
+}
